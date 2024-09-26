@@ -1,0 +1,179 @@
+
+.searchpartofapidiv {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    width: 580px;
+    position: relative;
+    margin-left: 180px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.searchinputapidiv {
+    padding: 19px 30px;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+
+}
+
+.searchinputapidiv::placeholder {
+    color: rgb(179, 169, 169);
+}
+
+.searchbuttoniconapi {
+    background-color: rgb(196, 8, 8);
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.searchbuttoniconapi:hover {
+    background-color: rgb(240, 95, 95);
+}
+
+/* Recipe Grid Styling */
+.recipe-gridapiimgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four images in a row */
+    gap: 10px; /* Reduce the gap between rows and columns */
+    margin-top: 100px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+   margin-top: 80px;
+   margin-left: 50px;
+
+
+}
+
+/* Container Styling for Each Image */
+.apiseconddivcontainsurls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 290px;
+    width: 300px; /* Set width to 300px to match the image width */
+    padding: 5px; 
+    transition: box-shadow 0.3s ease;
+    margin: 2px; 
+}
+
+.apiseconddivcontainsurls:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Image Styling */
+.apiimgs {
+    height: 190px; 
+    width: 310px; /* Fixed width of 300px */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    margin-top: -5px;
+    
+}
+
+/* Title Styling */
+/* Title Styling */
+.imgurlapis {
+    font-size: 19px; 
+    margin-top: 10px; 
+    text-decoration: none; /* Remove underline by default */
+    color: black; /* Default text color */
+    transition: color 0.3s ease, text-decoration-color 0.3s ease; /* Smooth transition for color and underline */
+    border-bottom: 1px solid transparent; /* Initial state with transparent underline */
+}
+
+.imgurlapis:hover {
+    color: black; /* Change text color to black on hover */
+    border-bottom: 3px solid rgb(221, 81, 81); /* Add red underline on hover */
+}
+
+
+/* Search Input Header Styling */
+.searchinputheadapi {
+    background-color: rgb(234, 241, 236);
+    height: 300px;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+/* Search Quote Styling */
+.searchquoteapi {
+    margin-left: -950px;
+    padding-top: 150px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .searchpartofapidiv {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .recipe-gridapiimgs {
+        grid-template-columns: repeat(2, 1fr); /* Two items in a row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-gridapiimgs {
+        grid-template-columns: repeat(1, 1fr); /* One item in a row for very small screens */
+    }
+}
+/* RecipeList.css */
+
+/* Container for suggestions list */
+.suggestions-list {
+    position: absolute; /* Positions the list relative to the input box */
+    top: 100%; /* Aligns the top of the list with the bottom of the input box */
+    left: 0;
+    right: 0; /* Ensures the list spans the full width of the input box */
+    background-color: white; /* White background for the list */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-height: 200px; /* Limits the height of the list */
+    overflow-y: auto; /* Adds a scrollbar if the list exceeds max height */
+    z-index: 1000; /* Ensures the list appears above other elements */
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+/* Individual suggestion item */
+.suggestion-item {
+    padding: 10px; /* Adds space inside each item */
+    cursor: pointer; /* Indicates that the item is clickable */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+/* Hover effect for suggestion items */
+.suggestion-item:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+/* Active suggestion item (optional) */
+.suggestion-item.active {
+    background-color: #e0e0e0; /* Slightly darker gray for the active item */
+}

@@ -1,0 +1,171 @@
+.newemailmain {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.newemailimage1div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newemailimage {
+    width: 850px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.newemailimage2div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.newemaillogo {
+    height: 45px;
+    margin-bottom: 20px;
+    padding-right: 140px;
+}
+
+.newemaillog {
+    margin: 0;
+    font-size: 2em;
+    color: #070707;
+    padding-right: 55px;
+}
+
+.newemailinputarea {
+    height: 40px;
+    width: 300px;
+    border: 1px solid #000000;
+    padding: 8px 8px 8px 18px; /* Add left padding for placeholder */
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.newemailinputarea::placeholder {
+    color: #4f4f4f; /* Light black color for the placeholder */
+}
+
+.newemailinputarea:focus {
+    border-color: blue;
+    outline: none; /* Removes the default browser outline on focus */
+}
+
+.rules {
+    margin-top: 20px;
+}
+
+.rule {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.checkboxpassword {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    position: relative;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.checkboxpassword::after {
+    content: '';
+    width: 4px;
+    height: 7px;
+    border: solid transparent;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    display: none;
+    border-color: white;
+    border-width: 2px; /* Adjusted to make the tick bolder */
+}
+
+.rule.valid .checkboxpassword {
+    border-color: green;
+    background-color: green;
+}
+
+.rule.valid .checkboxpassword::after {
+    display: block;
+}
+
+.conditions {
+    font-size: 10px;
+    color: #070707;
+    margin: 1px 0;
+    margin-right: 190px;
+}
+
+.newemailemail {
+    padding-right: 195px;
+}
+
+.newemailpassword {
+    padding-right: 235px;
+}
+
+.newemailloginButton {
+    height: 50px;
+    width: 330px;
+    background-color: rgb(145, 139, 139); /* Default color for disabled state */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.newemailloginButton.enabled {
+    background-color: rgb(201, 56, 8); /* Color when enabled */
+}
+
+.newemailloginButton.enabled:hover {
+    background-color: rgb(164, 70, 16);
+}
+
+.newemailloginButton:disabled {
+    cursor: not-allowed;
+    opacity: 0.6; /* Dim the button to indicate it's disabled */
+}
+
+.emailforgotPassword {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-thickness 0.3s ease;
+}
+
+.emailforgotPassword:hover {
+    text-decoration-thickness: 3px;
+}
+.emailerror {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+

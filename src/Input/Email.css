@@ -1,0 +1,121 @@
+.emailmain {
+  display: flex;
+  height: 100vh;
+  width: 100;
+}
+
+.emailimage1div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailimage {
+  width: 850px;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.emailimage2div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.emaillogo {
+  height: 45px;
+  margin-bottom: 20px;
+  padding-right: 140px;
+}
+
+.emaillog {
+  margin: 0;
+  font-size: 2em;
+  color: #070707;
+  padding-right: 50px;
+}
+
+.emailinputarea {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #000000;
+  padding: 8px 8px 8px 18px; /* Add left padding for placeholder */
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.emailinputarea::placeholder {
+  color: #4f4f4f; /* Light black color for the placeholder */
+}
+
+.emailinputarea:focus {
+  border-color: blue;
+  outline: none; /* Removes the default browser outline on focus */
+}
+
+.emailcheckboxContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.keepLoggedInCheckbox {
+  margin-right: 10px;
+}
+
+.emailkeepLoggedInLabel {
+  font-size: 0.9em;
+  color: #070707;
+}
+
+.emailforgotPassword {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-thickness 0.3s ease;
+}
+
+.emailforgotPassword:hover {
+  text-decoration-thickness: 3px;
+}
+
+.emailloginButton {
+  height: 50px;
+  width: 330px;
+  background-color: rgb(201, 56, 8);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  
+}
+
+.emailloginButton:hover {
+  background-color: rgb(164, 70, 16);
+}
+
+.emailemail {
+  padding-right: 190px;
+}
+
+.emailpassword {
+  padding-right: 230px;
+}
+.emailerror {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
