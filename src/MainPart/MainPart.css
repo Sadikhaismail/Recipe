@@ -10,7 +10,7 @@
     height: 100%; 
     padding: 0 55px; 
     background-color: rgb(17, 15, 175); 
-    margin-top: 200px;
+    margin-top: 150px;
   
   }
   
@@ -80,7 +80,7 @@
   .image1 {
     height: 600px;
     width: 800px;
-    object-fit: cover;
+    
   }
   
   .image2class {
@@ -113,7 +113,9 @@
     max-width: 600px;
   }
   
-  
+  .foodnews{
+    margin-left:100px
+  }
   
   
   .foodnewshead{
@@ -272,8 +274,8 @@
   .mainpartchoose {
     height: 200px;
     border: 1px solid black;
-    width: 1315px;
-    margin-left: 50px;
+    width: 1415px;
+    margin-left: 140px;
     margin-top: 110px;
     position: relative;
   }
@@ -344,7 +346,7 @@
   
   .Lasangabutton1 {
     height: 40px;
-    width: 70px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -360,7 +362,7 @@
   
   .Lasangabutton2 {
     height: 40px;
-    width: 90px;
+    width: 110px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -376,7 +378,7 @@
   
   .Lasangabutton3 {
     height: 40px;
-    width: 115px;
+    width: 135px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -391,7 +393,7 @@
   
   .Lasangabutton4 {
     height: 40px;
-    width: 75px;
+    width: 95px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -406,7 +408,7 @@
   
   .Lasangabutton5 {
     height: 40px;
-    width: 85px;
+    width: 105px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -421,7 +423,7 @@
   
   .Lasangabutton6 {
     height: 40px;
-    width: 80px;
+    width: 100px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -432,11 +434,13 @@
     line-height: 40px;
     display: inline-block;
     text-decoration: none; 
+    margin-left: 5px;
+
   }
   
   .Lasangabutton7 {
     height: 40px;
-    width: 70px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -452,7 +456,7 @@
   
   .Lasangabutton8 {
     height: 40px;
-    width: 70px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
