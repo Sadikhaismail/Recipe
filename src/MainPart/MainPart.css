@@ -10,7 +10,7 @@
     height: 100%; 
     padding: 0 55px; 
     background-color: rgb(17, 15, 175); 
-    margin-top: 150px;
+    margin-top: 200px;
   
   }
   
@@ -52,7 +52,7 @@
   }
   
   .dot {
-    margin-left: 120px;
+    margin-left: 80px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -73,33 +73,33 @@
   }
   
   .chickenimagediv {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 10px;
   }
   
   .image1 {
-    height: 700px;
-    width: 1140px;
-    
+    height: 600px;
+    width: 800px;
+    object-fit: cover;
   }
   
   .image2class {
     background-color: rgb(233, 233, 216);
-    height: 700px;
+    height: 550px;
     width: 500px; 
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
     justify-content: flex-start;
-    margin-left: 1170px;
+    margin-left: 870px;
     margin-right: 100px;
-    margin-top: -704px;
+    margin-top: -604px;
   }
   
   .image2-container {
     display: flex;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     margin-left: 30px;
   }
   
@@ -158,7 +158,6 @@
   .mainparthead4{
    margin-top: 100px;
    text-align: center;
-   margin-right:100px
   }
   
   .mainparthead4:hover {
@@ -180,20 +179,20 @@
     height: 200px;
   }
   .mainpartrasagula {
-    margin-left: 70px;
+    margin-left: 50px;
     font-style: italic;
     font-family: cursive;
     text-decoration: none;
     font-size: 30px;
     color: #000000;
   }
-  .hot-stuff{
-    margin-left:100px
-  }
   
   .mainpartrasagula:hover {
     text-decoration: underline;
     text-decoration-color:  rgb(196, 8, 8);
+  
+    
+    
   }
   
   .trendingimagediv {
@@ -273,7 +272,7 @@
   .mainpartchoose {
     height: 200px;
     border: 1px solid black;
-    width: 1500px;
+    width: 1315px;
     margin-left: 50px;
     margin-top: 110px;
     position: relative;
@@ -328,7 +327,7 @@
   .popularsearchescontainer {
     display: flex;
     flex-direction: column;
-    margin-left: 810px;
+    margin-left: 710px;
     margin-top: -110px;
   }
   
@@ -345,7 +344,7 @@
   
   .Lasangabutton1 {
     height: 40px;
-    width: 90px;
+    width: 70px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -361,7 +360,7 @@
   
   .Lasangabutton2 {
     height: 40px;
-    width: 110px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -377,7 +376,7 @@
   
   .Lasangabutton3 {
     height: 40px;
-    width: 135px;
+    width: 115px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -392,7 +391,7 @@
   
   .Lasangabutton4 {
     height: 40px;
-    width: 95px;
+    width: 75px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -407,7 +406,7 @@
   
   .Lasangabutton5 {
     height: 40px;
-    width: 105px;
+    width: 85px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -422,7 +421,7 @@
   
   .Lasangabutton6 {
     height: 40px;
-    width: 100px;
+    width: 80px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -433,12 +432,11 @@
     line-height: 40px;
     display: inline-block;
     text-decoration: none; 
-    margin-left: 5px;
   }
   
   .Lasangabutton7 {
     height: 40px;
-    width: 90px;
+    width: 70px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -454,7 +452,7 @@
   
   .Lasangabutton8 {
     height: 40px;
-    width: 90px;
+    width: 70px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
