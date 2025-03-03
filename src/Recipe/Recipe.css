@@ -1,0 +1,23 @@
+.linkdiv {
+    display: flex;
+    align-items: center; /* Align links and icons vertically centered */
+    gap: 9px; /* Space between links and the arrow icons */
+    padding: 10px 0; /* Add padding for spacing around the links */
+    
+    border-bottom: 1px ; /* Add a border at the bottom */
+    margin: 0 130px; /* Add margin to position the links in the container */
+  }
+  
+  .linkdiv a {
+    text-decoration: none; /* Remove underline from links */
+    color: #3b3939; /* Set link color */
+    font-size: 14px; /* Font size for links */
+    font-weight: bolder; /* Bold font for links */
+    letter-spacing: 1px; /* Add letter spacing for links */
+  }
+  
+  .linkdiv a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: rgb(196, 8, 8); /* Set underline color on hover */
+  }
+  
