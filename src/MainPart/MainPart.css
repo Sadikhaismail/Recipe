@@ -275,7 +275,7 @@
     height: 200px;
     border: 1px solid black;
     width: 1415px;
-    margin-left: 140px;
+    margin-left: -140px;
     margin-top: 90px;
     position: relative;
   }
