@@ -273,7 +273,7 @@
   .mainpartchoose {
     height: 200px;
     border: 1px solid black;
-    width: 1590px;
+    width: 1500px;
     margin-left: 50px;
     margin-top: 110px;
     position: relative;
@@ -328,7 +328,7 @@
   .popularsearchescontainer {
     display: flex;
     flex-direction: column;
-    margin-left: 710px;
+    margin-left: 810px;
     margin-top: -110px;
   }
   
@@ -345,7 +345,7 @@
   
   .Lasangabutton1 {
     height: 40px;
-    width: 130px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -361,7 +361,7 @@
   
   .Lasangabutton2 {
     height: 40px;
-    width: 120px;
+    width: 110px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -377,7 +377,7 @@
   
   .Lasangabutton3 {
     height: 40px;
-    width: 160px;
+    width: 135px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -392,7 +392,7 @@
   
   .Lasangabutton4 {
     height: 40px;
-    width: 130px;
+    width: 95px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -407,7 +407,7 @@
   
   .Lasangabutton5 {
     height: 40px;
-    width: 130px;
+    width: 105px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -422,7 +422,7 @@
   
   .Lasangabutton6 {
     height: 40px;
-    width: 130px;
+    width: 100px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -432,13 +432,13 @@
     text-align: center;
     line-height: 40px;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: none; 
     margin-left: 5px;
   }
   
   .Lasangabutton7 {
     height: 40px;
-    width: 130px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
@@ -454,7 +454,7 @@
   
   .Lasangabutton8 {
     height: 40px;
-    width: 130px;
+    width: 90px;
     background-color: rgb(201, 56, 8);
     color: white;
     border: none;
